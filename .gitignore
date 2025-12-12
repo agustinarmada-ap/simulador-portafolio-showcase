@@ -1,0 +1,81 @@
+# =========================
+# Archivos Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Entornos virtuales
+# =========================
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# Jupyter / Notebooks
+# =========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# =========================
+# Configuración de editores
+# =========================
+.vscode/
+.idea/
+*.code-workspace
+
+# =========================
+# Archivos del sistema
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Logs y cachés
+# =========================
+logs/
+*.log
+.pytest_cache/
+.mypy_cache/
+.cache/
+.cache*/
+*.pkl
+
+# =========================
+# Build / Distribución
+# =========================
+build/
+dist/
+*.egg-info/
+*.spec
+
+# =========================
+# Streamlit
+# (guardar secretos solo en local)
+# =========================
+.streamlit/credentials.toml
+.streamlit/secrets.toml
+
+# =========================
+# Variables de entorno
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# Datos locales pesados / temporales
+# (ajustar según tu repo)
+# =========================
+Data/raw/
+Data/tmp/
+data/raw/
+data/tmp/
+
+#app
+app.py/

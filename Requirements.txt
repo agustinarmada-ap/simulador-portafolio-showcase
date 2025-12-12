@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+yfinance
+plotly
+fpdf2
+scipy
+matplotlib
+reportlab
